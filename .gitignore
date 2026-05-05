@@ -1,0 +1,10 @@
+.godot/
+builds/
+android/build/.gradle/
+android/build/build/
+android/build/assets/
+android/build/src/debug/
+*.translation
+export_credentials.cfg
+export.log
+export-admob.log
