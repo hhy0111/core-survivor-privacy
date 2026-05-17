@@ -1,0 +1,29 @@
+; Engine configuration file.
+; Edit through the Godot editor when possible to avoid formatting drift.
+config_version=5
+
+[application]
+
+config/name="Core Survivor Cosmic Purge"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.3", "Mobile")
+config/icon="res://icon.svg"
+boot_splash/show_image=false
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+window/handheld/orientation=1
+
+[internationalization]
+
+locale/fallback="ko"
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/canvas_textures/default_texture_filter=0
+textures/vram_compression/import_etc2_astc=true
